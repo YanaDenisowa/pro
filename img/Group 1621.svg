@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="141" height="141" viewBox="0 0 141 141">
+  <defs>
+    <filter id="Rectangle_78" x="0" y="0" width="141" height="141" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_226" data-name="Rectangle 226" width="57" height="57" transform="translate(0 0.347)" fill="red" stroke="#2ebad9" stroke-linecap="round" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1621" data-name="Group 1621" transform="translate(-1084 -1553)">
+    <g transform="matrix(1, 0, 0, 1, 1084, 1553)" filter="url(#Rectangle_78)">
+      <rect id="Rectangle_78-2" data-name="Rectangle 78" width="123" height="123" rx="11" transform="translate(9 6)" fill="blue"/>
+    </g>
+    <text id="Suhtega_rahulolu" data-name="Suhtega rahulolu" transform="translate(1156 1661)" fill="green" font-size="13" font-family="Averta-Semibold, Averta" font-weight="600"><tspan x="-52" y="0">Suhtega rahulolu</tspan></text>
+    <g id="Group_1517" data-name="Group 1517" transform="translate(1126 1576.653)">
+      <g id="Group_1516" data-name="Group 1516" clip-path="url(#clip-path)">
+        <path id="Path_1882" data-name="Path 1882" d="M9.792,18.166a9.87,9.87,0,0,0,18.62,0" transform="translate(9.571 17.757)" fill="none" stroke="#2ebad9" stroke-linecap="round" stroke-width="2"/>
+        <circle id="Ellipse_241" data-name="Ellipse 241" cx="27.685" cy="27.685" r="27.685" transform="translate(0.989 0.989)" fill="none" stroke="#2ebad9" stroke-linecap="round" stroke-width="2"/>
+        <path id="Path_1883" data-name="Path 1883" d="M5.793,12.091a8.973,8.973,0,0,1,12.683,0" transform="translate(5.662 9.252)" fill="none" stroke="#2ebad9" stroke-linecap="round" stroke-width="2"/>
+        <path id="Path_1884" data-name="Path 1884" d="M16.793,12.091a8.973,8.973,0,0,1,12.683,0" transform="translate(16.415 9.252)" fill="none" stroke="#2ebad9" stroke-linecap="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
