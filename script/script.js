@@ -42,6 +42,11 @@ menuItem.forEach(item => {
 });
 
 //show slide right image
+let showButton = document.querySelectorAll('.show-content');
+console.log(showButton);
+let rightColumn = document.querySelectorAll('.slider__content .right-col');
+console.log(rightColumn);
+
 showButton.forEach((item => {
     item.addEventListener('click',(e) =>{
         // rightColumn.classList.toggle('display');
