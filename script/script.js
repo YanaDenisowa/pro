@@ -42,19 +42,13 @@ menuItem.forEach(item => {
 });
 
 //show slide right image
-let showButton = document.querySelectorAll('.show-content');
+showButton.forEach((item => {
+    item.addEventListener('click',(e) =>{
+        // rightColumn.classList.toggle('display');
+        item.style.backgroundColor = "red";
 
-showButton.forEach(item => {
-    item.addEventListener('click', (e) => {
-
-        console.log("show");
-        let leftColumn = document.querySelector('.slider__content .left-col');
-        leftColumn.style.backgorundColor="yana";
-        console.log(leftColumn);
-        // console.log(leftColumn);
-    });
-
-});
-
+        rightColumn.classList.toggle('display');
+    })
+}));
 
 
